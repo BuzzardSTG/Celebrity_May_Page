@@ -100,7 +100,7 @@ nav ul li a{
 }
 @media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 44px;
+        font-size: 44px;}
     .banner-buttons a{
         display: block;
         margin: 20px auto;
