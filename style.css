@@ -64,11 +64,44 @@
     color: #000;
 }
 #SideNav{
-    width: 120px;
+    width: 170px;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -170px;
     top: 0;
-    background: #009688;
+    background: #007096;
     z-index: 2;
+    transition: .5s;
 }
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+#menubutton{
+    width: 50px;
+    height: 50px;
+    background: #007096;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubutton img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    .banner-buttons a{
+        display: block;
+        margin: 20px auto;
+    }}
